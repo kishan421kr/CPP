@@ -1,0 +1,175 @@
+token :- tokens are smallest programing element/unit .
+panchuaters :- like semi colon ( ; ).
+literals :- like numric value 20
+literals are the values use during thr execution of programes.
+keyword :- its a reserve words, which have special meaning for the compiler.
+keywords are always return in lower case.
+ex :- include,int 
+
+identifier :- its a name given to diffrent programing element like variables , methods/functions , classes, structures, union, namespace. we will try to give meaningfull names to programing elements, by reading the names we will be able to identify the pourpos of that particular element.
+
+*we have to follow the naming conventions.
+variables name are return in snake_case.
+
+*snake_case :- words are seprated by underscore (_).
+example :- total_bill_amount, hello_world.cpp .
+
+* cpp program files name are also return in snake_case conventions.
+
+next day :-
+
+literals :-
+types of literals:-
+numeric literals :- 10 .
+boolean :- true / false
+float :- 1.01 .
+character :- ex:- 'a' .
+string literal :- ex:- "hello_world".
+
+operators :- this are the operators like addtion, multiplication, insertion, etraction, scoopresolution, etc. are the operators that are going to operat on your code.
+
+example :- 10 + 20, 5 * 3.
+
+punctuators :- #include <iostream> ------ > pre prosesor directive
+	         using namespace std ;  
+
+	         int main( ){
+
+					           
+
+}
+all the tokens are seprated by a whitespace or tab or new line.
+
+comment :- 1 :-  // its a single line comment 
+	   2 :- /* multi line comment 
+		second line ________
+		third line _______
+		so on _______
+	          */
+
+ guideline :- after 80 characters in single line it well change .
+
+
+to compile 
+
+										   convertin code 
+										         into 
+										   machine code
+source code -----------> compile ----------> compiled file ---------> linker ----------- > object file ---------> assembler  ----------------------------> execute ----->exit
+	|	        |				|
+	|	        |error				|error
+	|	        |				|
+correction  <------------  error massage <----------------------------------------
+		       display
+ ___________________________________________________________________________________________________________________________________________________________
+	           
+To compile
+
+g++/c++  file_name.cpp
+	----> error message
+		or
+	----> output file ------>a.exe
+ to run 
+	./outputfilename
+
+
+
+
+Next day :-
+
+write a program to print your name and rell number and address on the output screen / consol .
+in below mention format 
+vaibhav diwan, 81, kolar road
+
+Next day :-
+
+data type and variables :-
+
+variables :- it will hold values.variables are programing elements whose values will change during the execution of programs.
+
+primitive type/pre defined  2. derived type 3. user defined 
+
+int --> integar value (real numbers) ex- 0,1,2,3,-1,-2,-3, etc.
+float --> floating point numbers ( fractional number ) ex- 4.75 , 2.65, -2.4, etc.
+double --> double prisision ex- 3.14, 8.65, etc.
+char --> characters ex- a, c, d, e, r, A, S, F, R,W, etc.
+string --> 
+bool --> boolean ex- true, false.
+		  1    ,   0
+
+sapce ocupide by the data type it is depend on the  artichecture of the system and the software.
+
+bytes	4	8	1	1	
+	int	float	char	bool
+
+Declariation of variables :-
+syntax:-
+datatype, variable_name / identifier ;
+
+
+int roll_number ; 
+
+
+*do not do this :-
+	1. if you want to declair multiple variable of type int.
+		int number1,number2,number3;
+
+	2. you can print all the variable by single cout,with multiple insertion operator
+		cout << number << "," <<  number2 << "," << number3 << "\n" ;
+
+*operators :- four types of operator
+	1.Arthmatic operator :- to perform mathamatical operations. - ,+ ,* , %, /, &, =.
+		% (modulo) --> modulo division to get remainder of divison.
+		= (Assignmnent operator) --> to assign the value in the variable.
+
+	2.
+	3.
+
+
+
+truth table :-
+
+or operator (||) :-
+
+	exp1	exp2	result
+	 F	 T 	  F
+	 T	 F	  T
+	 F	 T	  T
+	 T	 T	  T
+
+NOT OPERATOR ( ! ):-
+
+	exp1	!	result
+	  T	!T	  F
+	  F	!F	  T
+
+AND OPERATOR ( && ) :- 
+	
+	exp1	exp2	
+
+
+
+
+
+
+Conditional  Statement :-
+
+--> 
+
+
+diffrence btw switch and nested if
+
+1.nested if condition  is a step by step prossesor while switch case is a choise based programing .
+2.nested if condition is slower then switch case statement.
+3.if condition supports all types of operators while switch case only support arthmatich operator.
+
+note: switch case does't support float values.
+
+while loop will execute the statement or code if and only if the condition is ture, otherwise it will come out from the loop it is also called entry loop.
+
+for loop: for loop will execute the statemnet or code till the condition is true, otherwise it will terminet the loop for loop is use for certainity of loop.
+
+syntax:-
+			for (variable initialize; condition ; increment/decrement){
+				statement/code;
+			}
