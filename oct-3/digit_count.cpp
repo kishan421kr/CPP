@@ -8,11 +8,9 @@ int main(){
     cin>>number;
 
     while(number>=0){
-        cout<<number<<"enter while ";
-        if(number/10>=0){
-            number=number%10;
-            count++;
-        }
+        
+        number=number/10;
+        count++;
     }
 
     cout<<count;
