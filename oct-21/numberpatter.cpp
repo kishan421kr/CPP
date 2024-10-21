@@ -19,6 +19,8 @@ using namespace std;
 //     }
 // }
 
+// consecutive series and floyd triangle
+
 // int main(){
 //     int count=0;
 //     for(int i=1 ; i<=3 ;i++){
