@@ -25,9 +25,13 @@ int main(){
         for(int s=3 ; s>i ;s--){
             cout<<" "<<"\t";
         }
-        for(int j=1 ; j<=i ; j++){
-            cout<<j<<"\t";
+        for(int j=i ; j>=1 ; j--){
+            cout<<char(64+j)<<"\t";
         }
         cout<<"\n";
     }
 }
+// output
+//   A
+//  BA
+// CBA
