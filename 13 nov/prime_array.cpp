@@ -5,7 +5,7 @@
 using namespace std;
 
 int main(){
-    int arr[] = {4, 5, 6, 7, 8, 9, 10};
+    int arr[] = {4, 5, 2, 6, 7, 8, 9, 10};
     int len = sizeof(arr) / sizeof(arr[0]);
     int count=0;
     for(int i=0 ; i<len ; i++){
@@ -24,6 +24,9 @@ int main(){
         }
     }
 }
+
+
+
 // Test Case 1: Simple Case
 // Input: [2, 3, 5, 7, 11]
 // Expected Output: [True, True, True, True, True]
