@@ -11,7 +11,7 @@ int main (){
         cout <<"number is divisable by 5" << "\n" ;
     }
     else{
-        int remainder = number & 5;
+        int remainder = number % 5;
         int result = 5 - remainder ;
         cout << "add " << result << " to the number, to make it divisable by 5 " << "\n" ;
     }

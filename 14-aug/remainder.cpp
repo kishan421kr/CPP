@@ -11,7 +11,7 @@ using namespace std ;
     int denominator;
     cin >>denominator;
 
-    int remainder = numerator % denominator ;
+    int remainder = numerator / denominator ;
 
     cout << "Remainder is " << remainder << "\n";
 
