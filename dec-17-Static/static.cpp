@@ -6,6 +6,7 @@ using namespace std;
 // types of classes.
 // single class: if a program having oly one class is called single class.
 // multi class:if a program having more then one classes is call multiclass.
+// anonymous class : 
 static int a=10;
 static int b=80;
 class top{
@@ -18,10 +19,20 @@ class top{
         cout<<k+j;
     }
 };
+class{
+    
+    int k=20;
+    int j=20;
+    public: void sum(){
+        cout<<"hello";
+        cout<<k+j;
+    }
+}p;
 int top::k=10;
 int top::j=20;
 
 int main(){
     top d;
     d.sum();
+    p.sum();
 }
