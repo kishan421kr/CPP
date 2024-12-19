@@ -5,7 +5,7 @@ using namespace std;
 // -> its also call special function.
 // -> its called a special type of function constructor is use to allocate the memory of an object.constructor doesnot have any return type.bydefault the class having a consturctor which is belongs to public specifier.
 // 1.default
-// 2.parameterized
+// 2.parameterized = in a parametrized constructor we use parameter in a function .
 // 3.copy constructor
     // 1.shallow copy
     // 2.deep copy
@@ -16,7 +16,7 @@ class top{
     // publc:classname(){
         // statement/code;
     // }
-    
+
     public:top (){
         cout<<"defaul constructor called\n";
     } 
