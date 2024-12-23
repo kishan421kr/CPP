@@ -1,4 +1,5 @@
 // in a parametrized constructor we use parameter in a function .
+// if class having more then one constructor with different parameter is called constructot overloading.
 #include<iostream>
 using namespace std;
 
