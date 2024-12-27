@@ -16,7 +16,7 @@ class top{
     }
     public : operator --(){
         a--;
-        cout<<"\n"<<a;
+        cout<<a;
     }
 };
 int main(){
