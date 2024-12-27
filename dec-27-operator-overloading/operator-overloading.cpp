@@ -11,11 +11,13 @@ class top{
     int a=10;
     public: operator ++()
     {
-        a++;
+        a--;
         cout<<a<<"\n";
     }
 };
 int main(){
     top obj;
     ++obj;
+    int a=90;
+    cout<<"\n"<<a;
 }
