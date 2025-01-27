@@ -41,3 +41,4 @@ int main() {
     
     return 0;
 }
+// an in place algorithm is an algorithm that does not need an extra space and produce an output in the same memory that contains the data by transforming the input in place
