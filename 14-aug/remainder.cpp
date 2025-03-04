@@ -14,5 +14,6 @@ using namespace std ;
     int remainder = numerator / denominator ;
 
     cout << "Remainder is " << remainder << "\n";
+    
 
  }

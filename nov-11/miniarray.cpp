@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int arr[]={21,54,66,42,64};
+    int arr[]={21,54,66,11,42,64};
     int arr1[5];
     arr[5]=500;
     int len=sizeof(arr)/sizeof(arr[0]);
